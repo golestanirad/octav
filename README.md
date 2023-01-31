@@ -12,5 +12,7 @@
 
 # How to run this project
 
-As this project has both server and UI side together you need to do "npm run dev" to run both of them at the same time
+As this project has both server and UI sides together you need to do "npm run dev" to run both of them at the same time.
 
+# NOTE
+That REACT_APP_RAPIDAPI_KEY has a daily limit as I used the free version, it's very unlikely that one can exceed that limit in a day, but if you see errors in the network tab, that could be related to this mater.
