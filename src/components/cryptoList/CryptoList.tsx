@@ -32,7 +32,7 @@ const CryptoList: React.FC<Props> = (props) => {
 
   /// handlers
   const handleShowMore = () => {
-    navigate(routes.cryptocurrencies);
+    navigate("/" + routes.cryptocurrencies);
   };
 
   /// return
