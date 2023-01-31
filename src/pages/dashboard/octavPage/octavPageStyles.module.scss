@@ -1,0 +1,10 @@
+.container {
+  overflow-y: auto;
+  width: 100%;
+  overflow-wrap: break-word;
+  padding-top: 10px;
+  height: 100%;
+  .outlet {
+    width: 100%;
+  }
+}

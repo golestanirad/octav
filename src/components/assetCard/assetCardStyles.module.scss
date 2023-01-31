@@ -1,0 +1,43 @@
+.container {
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 1s;
+  &:hover {
+    transform: rotate(2deg);
+    box-shadow: 0 5px 8px rgba($color: #6e6e6e, $alpha: 1);
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bolder;
+    min-height: 20%;
+    text-transform: capitalize;
+    .logo {
+      border-radius: 5px;
+      width: 30px;
+    }
+  }
+
+  .line {
+    width: 80%;
+    height: 1px;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--golden);
+  }
+
+  .info {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    span {
+      margin-top: 10px;
+      word-wrap: break-word;
+      font-size: 15px;
+      margin-bottom: 5px;
+    }
+  }
+}

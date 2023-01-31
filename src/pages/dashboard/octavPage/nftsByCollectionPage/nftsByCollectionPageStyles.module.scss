@@ -1,0 +1,17 @@
+.container {
+  > :first-child {
+    margin: 20px auto 0px auto;
+    @media screen and (max-width: 860px) {
+      width: 70%;
+    }
+  }
+  input {
+    width: 430px;
+  }
+  .tablist {
+    height: 300px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+  }
+}
