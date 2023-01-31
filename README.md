@@ -1,4 +1,4 @@
-## Add an .env file to the root will look like:
+## Add a .env file to the root with the lines below:
 
 `REACT_APP_RAPIDAPI_KEY =  '42ccd991a2mshe570b7059ff36ebp1ce37bjsnd4c52d0de59a'`
 
